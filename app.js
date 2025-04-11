@@ -13,8 +13,8 @@ app.use(bodyParser.json());
 const transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: 'samuchimweb222@gmail.com',  // Tu correo
-    pass: 'Samucky22'       // Tu contraseña o App Password si tienes la autenticación en 2 pasos
+    user: 'samuchim10@gmail.com',  // Tu correo
+    pass: 'atvt kazw nvwf uqvh'       // Tu contraseña o App Password si tienes la autenticación en 2 pasos
   }
 });
 
@@ -23,8 +23,8 @@ app.post('/enviar-correo', (req, res) => {
   const { nombre, correo, mensaje } = req.body;
 
   const mailOptions = {
-    from: 'samuchimweb222@gmail.com',  // Tu correo de origen
-    to: 'samuchim10@gmail.com', // El correo donde se enviarán los mensajes
+    from: 'samuchim10@gmail.com',  // Tu correo de origen
+    to: 'samuchim15@gmail.com', // El correo donde se enviarán los mensajes
     subject: 'Nuevo mensaje de contacto',
     text: `
       Nombre: ${nombre}
