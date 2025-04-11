@@ -23,8 +23,8 @@ app.post('/enviar-correo', (req, res) => {
   const { nombre, correo, mensaje } = req.body;
 
   const mailOptions = {
-    from: 'tuemail@gmail.com',  // Tu correo de origen
-    to: 'tucorreo@destino.com', // El correo donde se enviarán los mensajes
+    from: 'samuchimweb222@gmail.com',  // Tu correo de origen
+    to: 'samuchim10@gmail.com', // El correo donde se enviarán los mensajes
     subject: 'Nuevo mensaje de contacto',
     text: `
       Nombre: ${nombre}
